@@ -16,11 +16,9 @@ A modern and customizable **QR Code Generator** web app built with HTML, CSS, an
 - **HTML5** & **CSS3**
 - **JavaScript**
 
-## 📸 Demo
+## 🌐 Live Demo
+👉 https://qr-generator-quick-response.netlify.app/
 
-[![QR Code Generator](https://qr-generator-quick-response.netlify.app/)
-
-> Replace the screenshot above with your actual UI screenshot.
 
 ## 🚀 How to Use
 
