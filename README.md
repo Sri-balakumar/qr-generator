@@ -1,8 +1,3 @@
-Here's a professional and clean `README.md` you can add to your GitHub repository for the **QR Code Generator** project:
-
----
-
-````markdown
 # 🎯 QR Code Generator
 
 A modern and customizable **QR Code Generator** web app built with HTML, CSS, and JavaScript. Generate QR codes instantly from text or URLs, choose size and color, switch between light/dark modes, and even share or download your code with a single click.
@@ -37,7 +32,6 @@ A modern and customizable **QR Code Generator** web app built with HTML, CSS, an
    ```bash
    git clone https://github.com/Sri-balakumar/qr-code-generator.git
    cd qr-code-generator
-````
 
 2. Open `index.html` in your browser.
 
