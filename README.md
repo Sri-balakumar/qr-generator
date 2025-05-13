@@ -10,7 +10,6 @@ A modern and customizable **QR Code Generator** web app built with HTML, CSS, an
 - 🌐 Language support: **English** & **Tamil**
 - 📥 **Download** QR Code as PNG
 - 📤 **Share** QR Code
-- 🧑‍💻 GitHub profile QR code in footer
 
 ## 💻 Technologies Used
 
@@ -19,7 +18,7 @@ A modern and customizable **QR Code Generator** web app built with HTML, CSS, an
 
 ## 📸 Demo
 
-[![QR Code Generator Screenshot](screenshot.png)](https://qr-generator-quick-response.netlify.app/)
+[![QR Code Generator](https://qr-generator-quick-response.netlify.app/)
 
 > Replace the screenshot above with your actual UI screenshot.
 
