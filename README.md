@@ -49,12 +49,6 @@ qr-code-generator/
 └── README.md         # Project description
 ```
 
-## 🌐 Live Demo
-
-👉 [Click here to try it live](https://your-live-demo-link.com)
-
-> Replace with your live site link (e.g., GitHub Pages or Netlify).
-
 ## 👨‍💻 Author
 
 **Sri Balakumar**
