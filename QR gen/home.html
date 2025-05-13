@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- QR Code library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="language-selector">
+      <select id="languageSelect">
+        <option value="en">English</option>
+        <option value="ta">தமிழ் (Tamil)</option>
+      </select>
+    </div>
+    <span class="mode-label" id="modeLabel">Dark Mode</span>
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider"></span>
+    </label>
+  </div>  
+
+  <div class="container">
+    <h1 id="title">QR Code Generator</h1>
+    <p id="subtitle">Enter text or URL to generate a QR code</p>
+    
+    <div class="input-section">
+      <div class="input-wrapper">
+        <i class="fas fa-link input-icon"></i>
+        <input type="text" id="text" placeholder="Enter text or URL" autocomplete="off">
+      </div>
+      
+      <div class="options-section">
+        <div class="color-section">
+          <label for="qrColor" id="colorLabel">QR Code Color:</label>
+          <input type="color" id="qrColor" value="#000000">
+        </div>
+        
+        <div class="size-section">
+          <label for="qrSize" id="sizeLabel">QR Code Size:</label>
+          <select id="qrSize">
+            <option value="100" id="sizeSmall">Small (100x100)</option>
+            <option value="200" id="sizeMedium">Medium (200x200)</option>
+            <option value="300" selected id="sizeLarge">Large (300x300)</option>
+            <option value="400" id="sizeXLarge">Extra Large (400x400)</option>
+          </select>
+        </div>
+      </div>
+      
+      <button onclick="generateQRCode()" id="generateBtn" class="primary-btn">
+        <i class="fas fa-qrcode"></i> Generate QR Code
+      </button>
+    </div>
+    
+    <div id="qrcode"></div>
+    
+    <div class="download-section">
+      <button onclick="downloadPNG()" id="downloadBtn" disabled class="action-btn download-btn">
+        <i class="fas fa-download"></i> Download PNG
+      </button>
+      <button id="shareBtn" disabled class="action-btn share-btn">
+        <i class="fas fa-share-alt"></i> Share QR Code
+      </button>
+    </div>
+  </div>
+
+  <!-- GitHub Footer with QR Code -->
+  <footer class="footer">
+    <div class="github-section">
+      <h3>Connect with the Developer</h3>
+      <a href="https://github.com/Sri-balakumar" target="_blank" class="github-link">
+        <i class="fab fa-github github-logo"></i>
+        <span>Sri-balakumar</span>
+      </a>
+      
+      <!-- GitHub QR Code -->
+      <div class="github-qr-wrapper">
+        <div id="githubQR" class="github-qr"></div>
+        <p class="scan-text">Scan to visit GitHub profile</p>
+      </div>
+    </div>
+    <p class="copyright">© 2025 QR Code Generator. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
