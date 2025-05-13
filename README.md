@@ -15,14 +15,11 @@ A modern and customizable **QR Code Generator** web app built with HTML, CSS, an
 ## 💻 Technologies Used
 
 - **HTML5** & **CSS3**
-- **Vanilla JavaScript**
-- [QRCode.js](https://github.com/davidshimjs/qrcodejs)
-- [Font Awesome](https://fontawesome.com/)
-- Responsive Design (Mobile-first)
+- **JavaScript**
 
 ## 📸 Demo
 
-![QR Code Generator Screenshot](screenshot.png)
+[![QR Code Generator Screenshot](screenshot.png)](https://qr-generator-quick-response.netlify.app/)
 
 > Replace the screenshot above with your actual UI screenshot.
 
